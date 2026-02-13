@@ -24,11 +24,15 @@ El agente de IA:
 - No interviene en validaciones de sanciones.
 - No garantiza resultados.
 - Solo brinda orientación e información basada en el flujo oficial.
+  
 
 ## Consideraciones institucionales
 - El trámite no puede ser acelerado ni modificado una vez enviado.
 - La emisión de la constancia depende exclusivamente de las validaciones internas del sistema.
 - La información mostrada al usuario es la vigente al momento de la solicitud.
+- El tiempo de respuesta estipulado para los trámites de Profesionistas es de 15 días hábiles, contados a partir de la recepción de la solicitud.
+- El tiempo de respuesta estipulado para los trámites de Profesionistas es de 10 días hábiles, contados a partir de la recepción de la solicitud.
+- El tiempo de respuesta estipulado para los trámites de Colegios de Profesionistas es de 5 días hábiles, contados a partir de la recepción de la solicitud.
 
 
 
@@ -147,9 +151,7 @@ La Constancia de No Sanción es un documento oficial emitido por la Dirección G
 
 # Datos correspondientes a Colegios y federaciones de profesionistas
 ---
-Para cualquier gestión relacionada con Federaciones y Colegios de Profesionistas, favor de comunicarse a los siguientes correos oficiales:
-
-dgpjuridico@nube.sep.gob.mx
+- Para cualquier gestión relacionada con Federaciones y Colegios de Profesionistas, favor de comunicarse a los siguientes correos oficiales: dgpjuridico@nube.sep.gob.mx
 dgpserviciosprofesionales@nube.sep.gob.mx
 ---
 
