@@ -1,7 +1,3 @@
-"""
-Agente DGP Optimizado - Solo Gemini
-Con caché y sanitización
-"""
 import os
 import warnings
 from pathlib import Path
@@ -46,7 +42,7 @@ Usa SOLO la información del CONTEXTO proporcionado."""
 
 def crear_agente():
     """
-    Crea agente con Groq (gratis y rápido)
+    Crea agente con Groq
     Requiere GROQ_API_KEY en .env
     """
     from langchain_groq import ChatGroq
