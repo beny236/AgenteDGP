@@ -5,7 +5,6 @@ from pathlib import Path
 warnings.filterwarnings("ignore", message=".*Pydantic V1.*", category=UserWarning)
 
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
 
 
 from cache_system import SimpleCache
@@ -99,9 +98,8 @@ PREGUNTA DEL USUARIO:
 {pregunta_limpia}
 """
     
-    # 5. Invocar Gemini (FORMATO CORREGIDO)
     try:
-        # Gemini espera un string directo, no un dict
+        
         respuesta = agente.invoke(prompt_completo)
         
         # Extraer contenido
@@ -135,11 +133,3 @@ def estadisticas_cache():
     return total
 
 
-# Mantener compatibilidad
-def crear_llm(model: str = "gemini-2.0-flash", temperature: float = 0.2, api_key: str | None = None):
-    """Alias para compatibilidad"""
-    if api_key:
-        os.environ["GOOGLE_API_KEY"] = api_key
-    if model:
-        os.environ["GOOGLE_MODEL"] = model
-    return crear_agente()
