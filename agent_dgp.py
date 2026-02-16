@@ -21,13 +21,43 @@ else:
 # Caché global
 _cache_global = SimpleCache(ttl_seconds=3600)
 
-# Cargar datos
-_datos_dgp_path = _carpeta_proyecto / "datos_dgp.md"
-DATOS_DGP_CONTENIDO = ""
-if _datos_dgp_path.exists():
-    DATOS_DGP_CONTENIDO = _datos_dgp_path.read_text(encoding="utf-8")
-else:
-    print(f"ADVERTENCIA: No se encontró {_datos_dgp_path}")
+# ==========================================
+# CARGAR TODOS LOS DOCUMENTOS .md
+# ==========================================
+
+def cargar_documentos():
+    """Carga todos los archivos .md de la carpeta"""
+    archivos_md = [
+        "datos_dgp.md",
+        "profesionista_dgp.md",
+        "instituciones_educativas_dgp.md",
+        "colegios_federaciones_dgp.md"
+    ]
+    
+    contenido_total = []
+    archivos_cargados = []
+    
+    for archivo in archivos_md:
+        ruta = _carpeta_proyecto / archivo
+        if ruta.exists():
+            try:
+                contenido = ruta.read_text(encoding="utf-8")
+                contenido_total.append(f"\n\n--- {archivo} ---\n{contenido}")
+                archivos_cargados.append(archivo)
+            except Exception as e:
+                print(f"⚠️ Error al cargar {archivo}: {e}")
+        else:
+            print(f"⚠️ No se encontró: {archivo}")
+    
+    if archivos_cargados:
+        print(f"✓ Documentos cargados: {', '.join(archivos_cargados)}")
+    else:
+        print("❌ ADVERTENCIA: No se cargó ningún documento")
+    
+    return "\n".join(contenido_total)
+
+# Cargar todo el contenido
+DATOS_DGP_CONTENIDO = cargar_documentos()
 
 SYSTEM_PROMPT_DGP = """Eres el Asistente Virtual de la DGP-SEP México.
 

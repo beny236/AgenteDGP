@@ -28,7 +28,6 @@ El agente de IA:
 
 
 # Costos de trámites
-- Compulsa de Documento Original (por documento) $17.00
 - Devolución de Documento Original $17.00
 - Copias Certificadas de expedientes $28.00
 - Emisión de Estadísticas sobre el Registro Nacional $240.00
