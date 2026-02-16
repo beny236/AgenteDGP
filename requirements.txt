@@ -4,6 +4,12 @@ langchain>=0.3.0
 langchain-google-genai>=2.0.0
 langchain-core>=0.3.0
 langsmith>=0.1.0
+langchain-groq
+
+# RAG y Embeddings
+langchain-community>=0.3.0
+chromadb>=0.5.0
+sentence-transformers>=2.2.0
 
 # API y servidor web
 fastapi>=0.115.0
