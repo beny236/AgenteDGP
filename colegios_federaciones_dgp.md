@@ -1,6 +1,6 @@
 # Datos correspondientes a Colegios y federaciones de profesionistas
 ---
-- Para cualquier gestión relacionada con Federaciones y Colegios de Profesionistas, favor de comunicarse a los siguientes correos oficiales: dgpjuridico@nube.sep.gob.mx
+- Para cualquier gestión relacionada con Federaciones y Colegios de Profesionistas, favor de comunicarse a los siguientes correos oficiales: 
 dgpserviciosprofesionales@nube.sep.gob.mx
 - Costo de los trámites de Colegios: 
 ---

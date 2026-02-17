@@ -6,7 +6,7 @@ Los profesionistas unicamente pueden realizar estos trrámites:
 - Constancias de Pasante
 - Expedición de la Cédula profesional
 - Vinculación de CURP 
-- La emisión de las constancias tienen un máximo de 15 días.
+
   
 ## Inicio de trámites o seguimiento 
  - Ingresa al módulo de Profesionistas url:sep.gob.mx/Registro_de_Titulo.
@@ -33,7 +33,7 @@ La Constancia de No Sanción es un documento oficial emitido por la Dirección G
       - Valida con la firma electronica vigente 
 - Realiza el pago.
       - Unicamente pagos con tarjetas. 
-      - El costo es de $522.00.
+    
       - Ingresa los datos de la tarjeta.
       - Confirma el pago.
 -  Se envia la solicitud
@@ -57,7 +57,6 @@ La Constancia de No Sanción es un documento oficial emitido por la Dirección G
       - Valida con la firma electronica vigente 
 - Realiza el pago.
       - Unicamente pagos con tarjetas. 
-      - El costo es de $$$$.00.
       - Ingresa los datos de la tarjeta.
       - Confirma el pago.
 -  Se envia la solicitud
@@ -82,7 +81,6 @@ La Constancia de No Sanción es un documento oficial emitido por la Dirección G
       - Valida con la firma electronica vigente 
 - Realiza el pago.
       - Unicamente pagos con tarjetas. 
-      - El costo es de $$$$$$.00.
       - Ingresa los datos de la tarjeta.
       - Confirma el pago.
 -  Se envia la solicitud
@@ -91,8 +89,12 @@ La Constancia de No Sanción es un documento oficial emitido por la Dirección G
 - El seguimiento del trámite se da ingresando el número de solicitud y seleccionando el tipo de trámite. 
 - Seleccionar el tramite.
 - 
+## Constancia de situación profesional
+Actualmente, para obtener la Constancia de Situación Profesional, se debe ingresar al Registro Nacional de Profesionistas y realizar la búsqueda mediante nombre completo, CURP o número de cédula. En caso de que el documento no esté disponible, será necesario realizar la vinculación de la CURP con la cédula profesional.
 
+Nota importante: A partir del 1 de marzo, el procedimiento cambiará: se deberá acceder a la sección de 'Consultas' y seleccionar el icono de 'Profesionista' para iniciar el trámite.
 
+El documento es completamente gratuito
 
 ## Vinculación de CURP 
 - Acceder al portal oficial a través del siguiente enlace: siurp.sep.gob.mx.
@@ -104,7 +106,7 @@ La Constancia de No Sanción es un documento oficial emitido por la Dirección G
 - Capturar tu CURP.
 - Validar el proceso con tu firma electrónica (e.firma) vigente para finalizar la actualización.
 
-# Costos de los trámites
+## Costos de los trámites
 - Expedición de Cédula para Nivel Licenciatura: $1,840.00
 - Expedición de Cédula para Nivel Técnico Superior Universitario: $1,840.00
 - Expedición de Cédula para Grado Académico (Posgrado): $1,840.00

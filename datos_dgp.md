@@ -22,9 +22,9 @@ El agente de IA:
 ## Consideraciones institucionales
 - El trámite no puede ser acelerado ni modificado una vez enviado.
 - La información mostrada al usuario es la vigente al momento de la solicitud.
-- El tiempo de respuesta estipulado para los trámites de Profesionistas es de 15 días hábiles, contados a partir de la recepción de la solicitud.
 - El tiempo de respuesta estipulado para los trámites de Profesionistas es de 10 días hábiles, contados a partir de la recepción de la solicitud.
-- El tiempo de respuesta estipulado para los trámites de Colegios de Profesionistas es de 5 días hábiles, contados a partir de la recepción de la solicitud.
+- El tiempo de respuesta estipulado para los trámites de Profesionistas es de 10 días hábiles, contados a partir de la recepción de la solicitud.
+- El tiempo de respuesta estipulado para los trámites de Colegios de Profesionistas es de 10 días hábiles, contados a partir de la recepción de la solicitud.
 
 
 # Costos de trámites
